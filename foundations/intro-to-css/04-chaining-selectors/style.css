@@ -1,1 +1,12 @@
-/* Add CSS Styling */
+/* 1. Target the element with BOTH avatar and proportioned classes */
+.avatar.proportioned {
+  width: 300px;
+  /* Keep original square proportions without hardcoding height */
+  height: auto; 
+}
+
+/* 2. Target the element with BOTH avatar and distorted classes */.avatar.distorted {
+  width: 200px;
+  /* Height twice as big as width (200 * 2 = 400) */
+  height: 400px;
+}
