@@ -1,1 +1,17 @@
-/* Add CSS Styling */
+/* 1. Grouping: Use a comma to share styles between different classes */
+.clickable,
+.no-click {
+  font-size: 28px;
+  font-family: Helvetica, Times, serif;
+}
+
+/* 2. Individual styles for the first button */
+.clickable {
+  background-color: black;
+  color: white;
+}
+
+/* 3. Individual styles for the second button */
+.no-click {
+  background-color: yellow;
+}
