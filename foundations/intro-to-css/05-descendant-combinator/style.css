@@ -1,1 +1,7 @@
-/* Add CSS Styling */
+/* Target only the elements with class "text" that are INSIDE the class "container" */
+.container .text {
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
