@@ -1,1 +1,17 @@
-/* Add CSS Styling */
+/* 1. Elements with the class "odd" */
+.odd {
+  background-color: #ff9999;
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+/* 2. The element with the ID "number-two" */
+#number-two {
+  color: blue;
+  font-size: 36px;
+}
+
+/* 3. The element with the class "number-four" */
+/* Note: We use font-size 24px as required by the lesson */
+.number-four {
+  font-size: 24px;
+}
